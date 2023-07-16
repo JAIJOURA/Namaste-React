@@ -23,7 +23,8 @@
 
  const heading1= React.createElement('h1',{},'Hello World')
  const heading2= React.createElement('h1',{},'Namaste React')
-const div= React.createElement('div',{},[heading1,heading2])
+const div= React.createElement('div',{style:{
+    color:'red'} , className:"nested-div"},[heading1,heading2])
 
 //  console.log(heading) return object 
 // react create element always give objects
