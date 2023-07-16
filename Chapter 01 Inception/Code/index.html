@@ -21,10 +21,13 @@
 // const root=document.getElementById('root')
 // root.appendChild(heading)
 
- const heading= React.createElement('h1',{},'Hello World')
+ const heading1= React.createElement('h1',{},'Hello World')
+ const heading2= React.createElement('h1',{},'Namaste React')
+const div= React.createElement('div',{},[heading1,heading2])
+
 //  console.log(heading) return object 
 // react create element always give objects
 const root = ReactDOM.createRoot(document.getElementById('root')) // Create Root element for the React DOM
-root.render(heading)
+root.render(div)
 </script>
 </html>
