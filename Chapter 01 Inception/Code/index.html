@@ -13,14 +13,18 @@
     </div>
     
 </body>
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 <script>
+// const heading= document.createElement('h1')
+// heading.innerHTML='Hello World'
+// const root=document.getElementById('root')
+// root.appendChild(heading)
 
-
-const heading= document.createElement('h1')
-heading.innerHTML='Hello World'
-const root=document.getElementById('root')
-root.appendChild(heading)
-
-
+ const heading= React.createElement('h1',{},'Hello World')
+//  console.log(heading) return object 
+// react create element always give objects
+const root = ReactDOM.createRoot(document.getElementById('root')) // Create Root element for the React DOM
+root.render(heading)
 </script>
 </html>
