@@ -14,10 +14,17 @@ import ReactDOM from 'react-dom/client'
 //         <h1>Jai</h1>
 //     </div>
 //  )
-
+const heading = (
+    <div>
+            <h1>Jaiii</h1>
+            <h1>Jaiii</h1>
+            <h1>Jaiii</h1>
+            </div>
+)
 const Divv = ()=>{
     return (
-        <div>
+        <div className='jai'>
+            {heading}
             <h1>JOODDDD!!!</h1>
             <h1>JOODDDD!!!</h1>
             <h1>JOODDDD!!!</h1>
