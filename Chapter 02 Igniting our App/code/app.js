@@ -32,9 +32,15 @@ const Divv = ()=>{
     )
 }
 
+const Heading =()=>(
+    <div className='flex'> 
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxzdnx_hf5GQJEpX97mkOOzQCTQ0gwTc1TUA&usqp=CAU" alt="logo" />
+<img src="https://t3.ftcdn.net/jpg/05/17/79/88/360_F_517798849_WuXhHTpg2djTbfNf0FQAjzFEoluHpnct.jpg" alt="" />
+     </div>
+)
 
 
 //  console.log(heading) return object 
 // react create element always give objects
 const root = ReactDOM.createRoot(document.getElementById('root')) // Create Root element for the React DOM
-root.render(Divv());
+root.render(<Heading/>);
