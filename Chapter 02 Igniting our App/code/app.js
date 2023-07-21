@@ -7,16 +7,27 @@ import ReactDOM from 'react-dom/client'
 
 // const div= React.createElement('div',{style:{
 //     color:'red'} , className:"nested-div"},[heading1,heading2,heading3])
-const div = (
-    <div style={{color:'red'}}>
-        <h1>Jai</h1>
-        <h1>Jai</h1>
-        <h1>Jai</h1>
-    </div>
- )
+// const div = (
+//     <div style={{color:'red'}}>
+//         <h1>Jai</h1>
+//         <h1>Jai</h1>
+//         <h1>Jai</h1>
+//     </div>
+//  )
+
+const Divv = ()=>{
+    return (
+        <div>
+            <h1>JOODDDD!!!</h1>
+            <h1>JOODDDD!!!</h1>
+            <h1>JOODDDD!!!</h1>
+            </div>
+    )
+}
+
 
 
 //  console.log(heading) return object 
 // react create element always give objects
 const root = ReactDOM.createRoot(document.getElementById('root')) // Create Root element for the React DOM
-root.render(div);
+root.render(Divv());
